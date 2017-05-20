@@ -18,3 +18,8 @@ body {
     font-size: 20px;
     font-family: "Courier New";
 }
+
+#images {
+    text-align: center;
+    margin-top: 1%;
+}
