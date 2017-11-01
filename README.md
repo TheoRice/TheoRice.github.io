@@ -2,6 +2,6 @@
 
 Personal website
 
-Will utilize angular, running on a DigitalOcean Droplet.
+This website will host links to all my projects.
 
 -Theo
