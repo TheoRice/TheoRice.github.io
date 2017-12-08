@@ -2,8 +2,22 @@ body {
     background-image: url("../resources/background.png");
 }
 
+a {
+    font-family: "Courier New";
+    font-size: 20px;
+}
+
+a:link {
+    color: white;
+
+}
+
+a:visited {
+    color: gray;
+}
+
 #nameplate {
-    margin-top: 18%;
+    margin-top: 8%;
     color: white;
     text-align: center;
     font-size: 50px;
@@ -19,7 +33,26 @@ body {
     font-family: "Courier New";
 }
 
-#images {
+#images{
     text-align: center;
-    margin-top: 1%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#github {
+    padding: 4px;
+}
+
+#bedflix {
+    padding: 4px;
+}
+
+#skeltons {
+    padding: 4px;
+}
+
+#debug_menu{
+    padding: 4px;
 }
