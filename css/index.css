@@ -1,40 +1,35 @@
 body {
     background-image: url("../resources/background.png");
+    font-family: "Courier New";
+    color: white;
 }
 
 footer {
     bottom: 0; 
     position: fixed;
-    color: white;
     text-align: center;
     width: 100%;
-    font-family: "Courier New";
 }
 
 a:link {
     color: white;
-
 }
 
 a:visited {
-    color: gray;
+    color: #C0C0C0;
 }
 
 #nameplate {
     margin-top: 18%;
-    color: white;
     text-align: center;
     font-size: 50px;
-    font-family: "Courier New";
 }
 
 #about {
     margin-left: 25%;
     margin-right: 25%;
-    color: white;
     text-align: center;
     font-size: 20px;
-    font-family: "Courier New";
 }
 
 #images {
