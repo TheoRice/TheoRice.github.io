@@ -2,6 +2,10 @@ body {
     background-image: url("../resources/background.png");
     font-family: "Courier New";
     color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 footer {
@@ -32,6 +36,18 @@ a:visited {
     font-size: 20px;
 }
 
+#moreinfo {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+#moreinfo p {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 #images {
     text-align: center;
     display: flex;
@@ -55,4 +71,18 @@ a:visited {
 
 #blur {
     padding: 4px;
+}
+
+#expandedAbout {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 600px;
+    padding-bottom: 600px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#beammeup {
+    cursor: pointer;
+    text-decoration: underline;
 }
