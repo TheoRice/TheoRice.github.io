@@ -3,7 +3,6 @@ function hideCertificate(cert, proj) {
     if (x.style.display === "none") {
         x.style.display = "block";
         x.style.textAlign = "center";
-        // x.style.display = "flex";
         x.style.margin = "auto";
         x.style.justifyContent = "center";
     } else {
