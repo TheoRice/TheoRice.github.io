@@ -1,3 +1,8 @@
+@font-face {
+    font-family: moonFlower;
+    src: url(../resources/Moon\ Flower.ttf)
+}
+
 body {
     background-image: url("../resources/background.png");
     font-family: "Courier New";
@@ -76,10 +81,16 @@ a:visited {
 #expandedAbout {
     margin-left: 25%;
     margin-right: 25%;
-    padding-top: 20%;
+    padding-top: 5%;
     padding-bottom: 15%;
     text-align: center;
     vertical-align: middle;
+}
+
+#zoom {
+    font-family: moonFlower;
+    font-size: 400px;
+    text-align: center;
 }
 
 #beammeup {
