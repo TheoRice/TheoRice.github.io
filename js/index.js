@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#moreinfo").on('click', function () {
         $('html, body').animate({
-            scrollTop: $('#expandedAbout').offset().top + $(window).height() / 2
+            scrollTop: $('#section3').offset().top
         }, 3000);
     });
 
