@@ -94,6 +94,14 @@ a:visited {
     vertical-align: middle;
 }
 
+#expandedAbout img {
+    float:left;
+    padding-right:10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 200px;
+}
+
 #zoom {
     font-family: moonFlower;
     font-size: 400px;
